@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taaha Ali — Mechanical Engineer</title>
+<meta name="description" content="Taaha Ali — Mechanical Engineer specializing in mechanism design and mechatronics. Portfolio of capstone and personal projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@500;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#hero" class="brand">T.ALI</a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav">
+    <a href="#about">About</a>
+    <a href="#capstone">Capstone</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="hero" class="panel blueprint">
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow">MECHANICAL ENGINEER — MECHATRONICS</p>
+    <h1 class="hero-name">TAAHA ALI</h1>
+    <p class="hero-tagline">I design the parts that move — from concept sketch to working mechanism.</p>
+
+    <svg class="hero-sketch" viewBox="0 0 240 240" aria-hidden="true">
+      <circle class="sketch-path" cx="120" cy="120" r="86" />
+      <line class="sketch-path" x1="120" y1="14" x2="120" y2="46" />
+      <line class="sketch-path" x1="120" y1="194" x2="120" y2="226" />
+      <line class="sketch-path" x1="14" y1="120" x2="46" y2="120" />
+      <line class="sketch-path" x1="194" y1="120" x2="226" y2="120" />
+      <path class="sketch-path" d="M 120 60 Q 168 70 168 120 Q 168 162 134 168" />
+      <circle class="sketch-dot" cx="134" cy="168" r="4" />
+    </svg>
+  </div>
+
+  <div class="title-block" aria-hidden="true">
+    <div class="tb-row"><span>DRAWN BY</span><span>T. ALI</span></div>
+    <div class="tb-row"><span>DISCIPLINE</span><span>MECH / MECHATRONICS</span></div>
+    <div class="tb-row"><span>SHEET</span><span>1 OF 1</span></div>
+    <div class="tb-row"><span>REV</span><span>A</span></div>
+  </div>
+
+  <a class="scroll-cue" href="#about">SCROLL <span>▾</span></a>
+</section>
+
+<main>
+
+  <section id="about" class="panel vellum">
+    <h2 class="section-title"><span class="tag-num">SHEET 01</span>About</h2>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>I'm a mechanical engineer who likes the part of the job where a design stops being a drawing and starts being a mechanism — the linkages, the tolerances, the thing that actually has to move correctly every time.</p>
+        <p>My focus right now is mechatronics: mechanical systems paired with the sensing and control that make them autonomous. My capstone work was on the mechanical side of an automated pollination system for greenhouses — below. I'm also building out a set of smaller projects that combine CAD with scripting and embedded control.</p>
+        <p class="edit-note">[Edit: add your program, school, and expected grad date here if you want them listed]</p>
+      </div>
+
+      <table class="spec-sheet">
+        <caption>SKILLS DATASHEET</caption>
+        <thead>
+          <tr><th>FIELD</th><th>SPEC</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Design &amp; CAD</td><td>[edit: SolidWorks / AutoCAD / Fusion 360 — your tools]</td></tr>
+          <tr><td>Analysis</td><td>[edit: FEA, GD&amp;T, tolerancing — as applicable]</td></tr>
+          <tr><td>Manufacturing</td><td>[edit: CNC, 3D printing, sheet metal — as applicable]</td></tr>
+          <tr><td>Programming</td><td>Python, Arduino / C++ — learning</td></tr>
+          <tr><td>Focus Area</td><td>Mechatronics</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="capstone" class="panel vellum">
+    <h2 class="section-title"><span class="tag-num">SHEET 02</span>Featured Project</h2>
+
+    <article class="drawing-sheet">
+      <div class="sheet-header">
+        <div>
+          <span class="proj-no">PROJECT NO. 001</span>
+          <h3>Automated Pollination Drone</h3>
+          <p class="proj-sub">Greenhouse Automation — Capstone Project</p>
+        </div>
+        <span class="stamp stamp-documented">DOCUMENTED</span>
+      </div>
+
+      <div class="sheet-body">
+        <div class="sheet-text">
+          <h4>Problem</h4>
+          <p>Pollinating greenhouse crops by hand or by managing live pollinator insects is labor-intensive and difficult to control consistently in an enclosed environment. This project explored automating that contact using a drone-mounted mechanism.</p>
+
+          <h4>My Role</h4>
+          <p>I was responsible for the mechanical design of the <strong>proboscis</strong> — the actuated component that makes contact with the flower and transfers pollen. This included the CAD model and the motion animation used to validate reach and contact behavior.</p>
+
+          <h4>Process</h4>
+          <p>[Edit: 2-3 sentences on your actual process — e.g. how many design iterations, what drove the geometry of the proboscis, how the motion study was set up, any constraints from the drone platform itself]</p>
+        </div>
+
+        <div class="sheet-media">
+          <figure class="media-frame">
+            <img src="assets/img/capstone-proboscis-render.jpg" alt="Proboscis mechanism CAD render" onerror="this.style.display='none'">
+            <figcaption>PROBOSCIS MECHANISM — CAD RENDER</figcaption>
+          </figure>
+          <figure class="media-frame">
+            <img src="assets/img/capstone-drone-drawing.jpg" alt="Drone assembly technical drawing" onerror="this.style.display='none'">
+            <figcaption>DRONE ASSEMBLY — DRAWING</figcaption>
+          </figure>
+          <figure class="media-frame media-frame-wide">
+            <img src="assets/img/capstone-pollination-animation.gif" alt="Pollination cycle motion animation" onerror="this.style.display='none'">
+            <figcaption>POLLINATION CYCLE — MOTION STUDY</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="tag-row">
+        <span class="tag">CAD Modeling</span>
+        <span class="tag">Mechanism Design</span>
+        <span class="tag">Motion Simulation</span>
+        <span class="tag">Greenhouse Automation</span>
+      </div>
+    </article>
+  </section>
+
+  <section id="projects" class="panel blueprint-light">
+    <h2 class="section-title light"><span class="tag-num">SHEET 03</span>In Development</h2>
+    <p class="section-intro">Smaller projects I'm building out next — mechanical design paired with scripting and control.</p>
+
+    <div class="project-grid">
+
+      <article class="concept-card">
+        <span class="stamp stamp-concept">CONCEPT</span>
+        <h3>Parametric Drawing Generator</h3>
+        <p>A script that reads part dimensions from a spreadsheet and auto-generates title-blocked technical drawings — CAD and code in the same workflow.</p>
+        <div class="tag-row">
+          <span class="tag">AutoLISP / Python</span>
+          <span class="tag">AutoCAD</span>
+        </div>
+      </article>
+
+      <article class="concept-card">
+        <span class="stamp stamp-concept">CONCEPT</span>
+        <h3>Self-Balancing Robot</h3>
+        <p>A two-wheel robot stabilized with a PID controller — mechanical design, sensor integration, and control tuning in one build.</p>
+        <div class="tag-row">
+          <span class="tag">PID Control</span>
+          <span class="tag">Arduino</span>
+        </div>
+      </article>
+
+      <article class="concept-card">
+        <span class="stamp stamp-concept">CONCEPT</span>
+        <h3>Linkage-Driven Finger Mechanism</h3>
+        <p>A single actuated finger using a 4-bar linkage, scoped down from prosthetic-hand mechanisms to a single working joint.</p>
+        <div class="tag-row">
+          <span class="tag">Mechanism Design</span>
+          <span class="tag">3D Printing</span>
+        </div>
+      </article>
+
+      <article class="concept-card">
+        <span class="stamp stamp-concept">CONCEPT</span>
+        <h3>CNC Fixture Redesign</h3>
+        <p>A documented build log of a fixture or tool-change mod for a small CNC/printer setup — fabrication and iteration, not just CAD.</p>
+        <div class="tag-row">
+          <span class="tag">Fabrication</span>
+          <span class="tag">Iteration Log</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="panel vellum">
+    <h2 class="section-title"><span class="tag-num">SHEET 04</span>Tools &amp; Process</h2>
+    <div class="legend-grid">
+      <div class="legend-item"><span class="legend-key">01</span>Design &amp; CAD</div>
+      <div class="legend-item"><span class="legend-key">02</span>Mechanism &amp; Motion Analysis</div>
+      <div class="legend-item"><span class="legend-key">03</span>Manufacturing &amp; Fabrication</div>
+      <div class="legend-item"><span class="legend-key">04</span>Embedded &amp; Controls</div>
+      <div class="legend-item"><span class="legend-key">05</span>Scripting / Automation</div>
+      <div class="legend-item"><span class="legend-key">06</span>Technical Documentation</div>
+    </div>
+    <p class="edit-note center">[Edit: replace with your actual tool list, or remove this section if Sheet 01's datasheet already covers it]</p>
+  </section>
+
+</main>
+
+<footer id="contact" class="panel blueprint">
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="contact-inner">
+    <p class="eyebrow">SHEET 05 — CONTACT</p>
+    <h2 class="contact-title">Let's talk.</h2>
+    <p class="contact-sub">Open to mechanical and mechatronics internship roles.</p>
+
+    <div class="contact-links">
+      <a href="mailto:taaha.indr@gmail.com" class="contact-link">taaha.indr@gmail.com</a>
+      <span class="contact-link placeholder">[LinkedIn — add link]</span>
+      <span class="contact-link placeholder">[GitHub — add link]</span>
+      <span class="contact-link placeholder">[Resume PDF — add link]</span>
+    </div>
+  </div>
+
+  <div class="title-block" aria-hidden="true">
+    <div class="tb-row"><span>DRAWN BY</span><span>T. ALI</span></div>
+    <div class="tb-row"><span>SHEET</span><span>5 OF 5</span></div>
+    <div class="tb-row"><span>REV</span><span>A</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
